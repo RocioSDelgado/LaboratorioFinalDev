@@ -1,0 +1,132 @@
+body {
+  background-image: url('listausuarios.png');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  font-family: 'Overpass', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header-menu li {
+  margin: 0 10px;
+  padding-left: 75px;
+  color: #0b0b0b;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.header-menu a {
+  color: #0b0b0b;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+}
+
+.header-actions a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.usuarios-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid #3c3b3b;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.usuarios-table tr:first-child th {
+  background-color: #e3e9ed;
+  color: #101826;
+  margin: 0 10px;
+  padding-left: 75px;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.usuarios-table th,
+.usuarios-table td {
+  padding: 8px;
+  border: 1px solid #000000;
+}
+
+.usuarios-table th {
+  background-color: #626973;
+  color: aliceblue;
+}
+
+.usuarios-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.usuarios-table tr:hover {
+  background-color: #e2e2e2;
+}
+
+.volver-btn {
+  display: block;
+  width: 100px;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: center;
+  background-color: hsl(0, 17%, 98%);
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #000000;
+  margin-left: 410px;
+}
+
+.volver-btn:hover {
+  background-color:#dadce2;
+}

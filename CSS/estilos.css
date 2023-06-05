@@ -1,0 +1,124 @@
+body {
+  background-image: url('unforgivencollection.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  font-family: 'Overpass',Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header-menu li {
+  margin: 0 10px;
+  padding-left: 75px;
+  color: #0b0b0b;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.header-menu a {
+  color: #0b0b0b;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+}
+
+.header-actions a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.form-container {
+  display: none;
+}
+.form-container .form-input:focus {
+  outline: none;
+  border-color: #2d1072;
+  box-shadow: 0 0 5px #40497d;
+}
+
+
+.form-container {
+  display: none;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid #3c3b3b;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.form-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #3b3a3f;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.form-container .form-input {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.form-buttons input[type="submit"],
+.form-buttons input[type="reset"] {
+  margin: 0 10px;
+}
+
+.form-container .form-btn {
+  background-color: #000;
+  color: #FFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}

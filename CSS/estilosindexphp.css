@@ -1,0 +1,109 @@
+body {
+  background-image: url('Sakuraerror.png');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  font-family: 'Overpass', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  right: 600px;
+
+  /* Estilos para la cabecera */
+.header {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header-menu li {
+  margin: 0 10px;
+  padding-left: 75px;
+  color: #0b0b0b;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.header-menu a {
+  color: #0b0b0b;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+}
+
+.header-actions a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+}
+.error {
+  position: fixed;
+  top: 50%;
+  right: 600px;
+  transform: translateY(-50%);
+  width: 300px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.success {
+  position: fixed;
+  top: 50%;
+  right: 600px;
+  transform: translateY(-50%);
+  width: 300px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  right: 600px;
+  text-align: center;
+}
+
+.button {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: center;
+  background-color: hsl(0, 17%, 98%);
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  margin-top: 460px;
+  margin-left: 1050px;
+  cursor: pointer;
+  border: 1px solid #000000;
+}
+
+.button:hover {
+  background-color:#dadce2;
+}
